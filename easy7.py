@@ -1,4 +1,5 @@
-
+#easy7
+#Code calculates the sum of the digits of a user-input integer.
 
 
 sum == 0

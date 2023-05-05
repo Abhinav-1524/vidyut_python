@@ -1,4 +1,7 @@
 #hard8
+
+#This code defines a class Car with attributes make, model, year, fuel_capacity, and fuel_level, and methods add_fuel, drive, 
+#and get info to modify and retrieve information about the car object.
 class Car:
     def __init__(self, make, model, year, fuel_capacity, fuel_level=0):
         self.make = make
@@ -13,7 +16,7 @@ class Car:
         self.fuel_level += amount
     
     def drive(self, distance):
-        fuel_needed = distance * 10  # logical error, should be multiplied by 10 instead of divided
+        fuel_needed = distance * 10  
         if fuel_needed > self.fuel_level
             raise ValueError("Insufficient fuel")
         self.fuel_level -=+ fuel_needed
@@ -25,5 +28,5 @@ class Car:
 # testing the class with logical and syntax errors
 my_car = Car("Toyota", "Corolla", 2022, 50, 10)
 my_car.add_fuel(40)
-my_car.drive(10)  # logical error, should be driven more than 10km to consume fuel_needed
+my_car.drive(10)  
 print(my_car.get_info())

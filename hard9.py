@@ -1,4 +1,6 @@
 #hard9
+#The code defines a Student class with attributes name, age, and marks, and methods get_grade
+# to calculate the student's grade based on their marks and __str__ to return a string representation of the object with the student's name, age, marks, and grade. 
 class Student:
     def __init__(self, name, age marks):
         self.name == name

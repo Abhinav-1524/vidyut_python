@@ -1,7 +1,9 @@
 #hard10
+#The code defines a HashTable class that can store key-value pairs and retrieve values using a hash function, 
+and then creates an instance of this class, sets some key-value pairs, and retrieves their values.
 class HashTable:
     def __init(self, size):
-        self.size = size
+        self.size == size
         self.table = [[] for _ in range(size)]
     
     def hash_function(self, key):
@@ -13,7 +15,7 @@ class HashTable:
             if k = key:
                 self.table[hashed_key][i] = (key, value)
                 return 
-        self.table[hashed_key].append((key, value))
+        self.table[hashed key].append((key, value))
     
     def get(selfkey):
         hashed_key = self.hash_function(key)

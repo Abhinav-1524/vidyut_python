@@ -1,3 +1,4 @@
+#medium5
 #This code defines a function called "count_vowels" that takes a string as input, counts the number of vowels in the input string, and returns the count.
 # The code then calls this function for three different input strings and prints the results. 
 

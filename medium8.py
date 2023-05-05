@@ -1,4 +1,5 @@
 # medium8
+#Calculate the geometric mean of a series of numbers provided by the user.
 
 c = 0
 p = 1.0

@@ -1,4 +1,5 @@
 # medium7
+#A program to perform basic arithmetic operations on two input numbers based on the input operator.
 
 
 def add(x,y):

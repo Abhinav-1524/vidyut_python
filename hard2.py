@@ -1,16 +1,16 @@
 #hard2
+#it is checking for the longest substring with repeating characters in a string.
+
 def test_1(string =""):
-    # initializing the substring
+    
     substring = "" 
     testList = []
     initial = 0
 
-    # introducing a typo in the string variable name
     for char in strng:
         for i in range(initial, len(string)):
             substring+= string[i]
 
-            # introducing a syntax error in the if statement
             if substring.count(string[i]>1:
                 testList.append(substring[:-1])
                 initial+= 1
@@ -18,12 +18,12 @@ def test_1(string =""):
                 break
     maxi =""
 
-    # introducing an indentation error
+\
       for word in testList:
         if len(word)>len(maxi):
             maxi = word
 
-    # introducing a NameError by misspelling a variable name
+
     if len(maxim)<3:
         return "-1"
     else:

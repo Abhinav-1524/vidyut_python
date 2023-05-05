@@ -1,5 +1,7 @@
 # medium6
 #sample input : malayalam
+#The code checks if a given input string is a palindrome or not. 
+#It reverses the input string and compares it with the original string to determine whether it is a palindrome. 
 
 def rev(inputString):
     return inputString[::-1]

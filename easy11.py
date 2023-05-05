@@ -1,4 +1,5 @@
-
+#easy11
+#This code calculates the factorial of a number num using a recursive function fact, and outputs the result. 
 
 def fact(n):
     if n=1:

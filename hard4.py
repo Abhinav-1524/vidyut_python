@@ -1,4 +1,6 @@
 #hard4
+#The code defines classes and functions for various tasks including palindrome checking, arithmetic operations,
+# finding prime numbers, graph traversal and hash table operations
 class HashTable:
     def __init__(self, size):
         self.size = size

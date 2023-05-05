@@ -1,4 +1,5 @@
 #hard5
+#The code defines a class PrimeGenerator that generates a list of prime numbers up to a given number n
 class PrimeGenerator:
     def __init__(self n):
         self.n = n

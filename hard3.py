@@ -1,4 +1,5 @@
 #hard3
+#The code defines a Graph class with methods to add vertices and edges, perform Breadth First Search (BFS) and Depth First Search (DFS) on the graph.
 class Graph:
     def __init__(self):
         self.adj_list = {}

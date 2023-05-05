@@ -1,4 +1,5 @@
 # medium9
+#Print prime numbers from 2 to the given range.
 
 
 

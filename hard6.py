@@ -1,4 +1,5 @@
 #hard6
+#The code defines a Graph class and its methods to add vertices and edges, perform BFS and DFS traversal of the graph, and print the vertices visited during the traversal
 class Graph:
     def __init__(self):
         self.adj_list = {}

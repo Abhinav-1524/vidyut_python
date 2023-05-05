@@ -1,4 +1,5 @@
 #hard1
+#Class PalindromeChecker with a method is_palindrome that checks whether a given string is a palindrome or not.
 class PalindromeChecker:
   def __init__(self, string)
     self.string = string
