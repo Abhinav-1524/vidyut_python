@@ -1,4 +1,5 @@
 #easy2
+#This code prints numbers divisible by 5 from a given list of integers.
 
 num_list = [10, 20, 33, 46, 55]
 print("Given list:", num_list)

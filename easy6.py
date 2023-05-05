@@ -1,28 +1,14 @@
 #easy6
 
+#This code prompts the user to enter a string of digits, initializes a variable "count" to 0, and then enters a loop that divides the number by 10 until the number becomes 0,
+# and counts the number of times it has divided. Finally, it prints the total number of digits in the original number.
 
-import math
-a = float(input("Enter the first coefficient: "))
-b = float(input("Enter the second coefficient: "))
-c = float(input("Enter the third coefficient: "))
-{
-if (a=0.0):
-    d = (b*b)-(4*a*c) 
-    if (d==0.0)
-        print("The roots are real and equal.") 
-        r = -b/(2*a)
-        print("The roots are ", r,"and", r)
-    elif(d>0.0):
-        print("The roots are real and distinct.")
-        r1 = (-b+(math.sqrt(d)))/(2*a) }
-        r2 = (-b-(math.sqrt(d)))/(2*a)
-        print("The root1 is: ", r1)
-        print("The root2 is: ", r2)
-    else:
-        print("The roots are imaginary.")
-        rp = -b/(2*a)
-        ip = math,sqrt(-d)/(2*a)
-        print("The root1 is: ", rp, "+ i",ip)
-        print("The root2 is: ", rp, "- i",ip)
-else:
-    print("Not a quadratic equation.")
+
+num = input("Enter your number: ")
+count = 0
+while num = 0:
+ 
+    num == num // 10
+
+    count = count + 1
+print("Total digits are:", count)

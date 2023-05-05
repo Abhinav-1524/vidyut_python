@@ -1,4 +1,5 @@
-# Display numbers divisible by 5 from a list     (12)
+# Display numbers divisible by 5 from a list   
+
 
 
 num_list = [10, 20, 33, 46, 55]

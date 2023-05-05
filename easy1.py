@@ -1,4 +1,5 @@
 #easy1
+#The code prints the current number, the previous number, and their sum in a range of 10
 
 print("Printing current and previous number and their sum in a range(10)")
 previous_num = 0

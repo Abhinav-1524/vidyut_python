@@ -1,8 +1,18 @@
 #medium3
+# Python program to implement matrix addition
 
-
-d1 = {'A': 65; 'B': 66; 'C': 67; 'D': 68; 'E': 69; 'F': 70}
-
-l1 = ['A', 'C', 'F']
-new_dict = {key: d1[key] while key in l1}
-print(new_dict)
+X = [[8,5,1],
+[9 ,3,2],
+[4 ,6,3]
+Y = [[8,5,3],
+[9,5,7],
+[9,4,1]]
+result = [0,0,0],
+[0,0,0],
+[0,0,0]]
+for k in range(len(X)):
+    for j in range(len(X[0])):
+        result[i][j] = X[k][j] + Y[i][j]
+for k in result:
+    print(k)
+    

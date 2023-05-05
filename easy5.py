@@ -1,4 +1,5 @@
 #easy5
+# program to find the geometric mean of n numbers 
 
 c = 0
 p = 1.0
